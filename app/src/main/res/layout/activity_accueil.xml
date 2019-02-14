@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_red_dark">
+
+    <Button
+        android:id="@+id/BtnMdp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:elevation="0dp"
+        android:onClick="ClickMdpButton"
+        android:tag="1"
+        android:text="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mdpZone" />
+
+    <Button
+        android:id="@+id/BtnMdp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:onClick="ClickMdpButton"
+        android:tag="2"
+        android:text="2"
+        app:layout_constraintEnd_toStartOf="@+id/BtnMdp3"
+        app:layout_constraintStart_toEndOf="@+id/BtnMdp1"
+        app:layout_constraintTop_toTopOf="@+id/BtnMdp1" />
+
+    <Button
+        android:id="@+id/BtnMdp3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:onClick="ClickMdpButton"
+        android:tag="3"
+        android:text="3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/BtnMdp2" />
+
+    <Button
+        android:id="@+id/BtnMdp4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:onClick="ClickMdpButton"
+        android:tag="4"
+        android:text="4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BtnMdp1" />
+
+    <Button
+        android:id="@+id/BtnMdp5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:onClick="ClickMdpButton"
+        android:tag="5"
+        android:text="5"
+        app:layout_constraintEnd_toStartOf="@+id/BtnMdp6"
+        app:layout_constraintStart_toEndOf="@+id/BtnMdp4"
+        app:layout_constraintTop_toTopOf="@+id/BtnMdp4" />
+
+    <Button
+        android:id="@+id/BtnMdp6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:onClick="ClickMdpButton"
+        android:tag="6"
+        android:text="6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/BtnMdp5" />
+
+    <Button
+        android:id="@+id/BtnMdp7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:onClick="ClickMdpButton"
+        android:tag="7"
+        android:text="7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BtnMdp4" />
+
+    <Button
+        android:id="@+id/BtnMdp8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:onClick="ClickMdpButton"
+        android:tag="8"
+        android:text="8"
+        app:layout_constraintEnd_toStartOf="@+id/BtnMdp9"
+        app:layout_constraintStart_toEndOf="@+id/BtnMdp7"
+        app:layout_constraintTop_toTopOf="@+id/BtnMdp7" />
+
+    <Button
+        android:id="@+id/BtnMdp9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:onClick="ClickMdpButton"
+        android:tag="9"
+        android:text="9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/BtnMdp8" />
+
+    <Button
+        android:id="@+id/BtnMdp0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:onClick="ClickMdpButton"
+        android:tag="0"
+        android:text="0"
+        app:layout_constraintEnd_toEndOf="@+id/BtnMdp8"
+        app:layout_constraintStart_toStartOf="@+id/BtnMdp8"
+        app:layout_constraintTop_toBottomOf="@+id/BtnMdp8" />
+
+    <Button
+        android:id="@+id/SUPP"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:lineSpacingExtra="8sp"
+        android:onClick="ClickSuppButton"
+        android:text="←"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/BtnMdp0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/BtnMdp0"
+        tools:padding="0dp" />
+
+    <EditText
+        android:id="@+id/mdpZone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="32dp"
+        android:clickable="false"
+        android:ems="10"
+        android:focusableInTouchMode="false"
+        android:focusedByDefault="false"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:textColor="@color/cardview_light_background"
+        tools:textSize="24sp" />
+
+</android.support.constraint.ConstraintLayout>

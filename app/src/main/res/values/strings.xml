@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MGVPC</string>
+    <string name="a1_2">A1.2</string>
+    <string name="chaise_de_bureau">Chaise de bureau</string>
+    <string name="nom">Nom :</string>
+    <string name="a1_1">A1.1</string>
+    <string name="qte">QTE</string>
+    <string name="ref4868">ref4868</string>
+    <string name="qteTxt">Qte :</string>
+    <string name="button"><![CDATA[>]]></string>
+    <string name="a_b_c_e_f">A B C E F</string>
+    <string name="_1_n_n2_n_n3_n_n4">1  2  3  4</string>
+    <string name="ref">REF :</string>
+</resources>
