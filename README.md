@@ -1,6 +1,8 @@
 # GUEPE
 ### Gestion Unifier des Entrepot et Produits des Entreprises // Projet E4 // MGVPC
 
+!!! Si l'apk ne fonctionne pas, l'application a été pré-instalé sur la tablette [asus] du lycéé !!!
+
 |  |  |
 |--|--|
 | Code Source de API | https://github.com/Wendeline/ApiMGVPCv2 |
